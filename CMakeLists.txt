@@ -3,7 +3,7 @@ project(SummerGameDev)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SummerGameDev main.cpp)
+add_executable(SummerGameDev main.cpp Game.cpp Game.h)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/SFML/lib/cmake/SFML)

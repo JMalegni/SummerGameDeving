@@ -1,3 +1,3 @@
-C:/SummerGameDev/SummerGameDeving/cmake-build-debug/CMakeFiles/SummerGameDev.dir
-C:/SummerGameDev/SummerGameDeving/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/SummerGameDev/SummerGameDeving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jwmal/SummerGameDeving/SummerGameDeving/cmake-build-debug/CMakeFiles/SummerGameDev.dir
+C:/Users/jwmal/SummerGameDeving/SummerGameDeving/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jwmal/SummerGameDeving/SummerGameDeving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
