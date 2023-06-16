@@ -92,10 +92,10 @@
 		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Game.h">
 			<Option target="SummerGameDev"/>
 		</Unit>
-		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/State.cpp">
+		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/ProjectState.cpp">
 			<Option target="SummerGameDev"/>
 		</Unit>
-		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/State.h">
+		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/ProjectState.h">
 			<Option target="SummerGameDev"/>
 		</Unit>
 		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/main.cpp">

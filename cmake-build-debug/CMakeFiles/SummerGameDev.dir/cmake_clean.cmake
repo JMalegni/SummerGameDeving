@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SummerGameDev.dir/Game.cpp.obj"
   "CMakeFiles/SummerGameDev.dir/Game.cpp.obj.d"
-  "CMakeFiles/SummerGameDev.dir/State.cpp.obj"
-  "CMakeFiles/SummerGameDev.dir/State.cpp.obj.d"
+  "CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj"
+  "CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj.d"
   "CMakeFiles/SummerGameDev.dir/main.cpp.obj"
   "CMakeFiles/SummerGameDev.dir/main.cpp.obj.d"
   "SummerGameDev.exe"

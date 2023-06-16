@@ -98,33 +98,33 @@ CMakeFiles/SummerGameDev.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SummerGameDev.dir/Game.cpp.s"
 	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jwmal\SummerGameDeving\SummerGameDeving\Game.cpp -o CMakeFiles\SummerGameDev.dir\Game.cpp.s
 
-CMakeFiles/SummerGameDev.dir/State.cpp.obj: CMakeFiles/SummerGameDev.dir/flags.make
-CMakeFiles/SummerGameDev.dir/State.cpp.obj: CMakeFiles/SummerGameDev.dir/includes_CXX.rsp
-CMakeFiles/SummerGameDev.dir/State.cpp.obj: C:/Users/jwmal/SummerGameDeving/SummerGameDeving/State.cpp
-CMakeFiles/SummerGameDev.dir/State.cpp.obj: CMakeFiles/SummerGameDev.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jwmal\SummerGameDeving\SummerGameDeving\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SummerGameDev.dir/State.cpp.obj"
-	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SummerGameDev.dir/State.cpp.obj -MF CMakeFiles\SummerGameDev.dir\State.cpp.obj.d -o CMakeFiles\SummerGameDev.dir\State.cpp.obj -c C:\Users\jwmal\SummerGameDeving\SummerGameDeving\State.cpp
+CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: CMakeFiles/SummerGameDev.dir/flags.make
+CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: CMakeFiles/SummerGameDev.dir/includes_CXX.rsp
+CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: C:/Users/jwmal/SummerGameDeving/SummerGameDeving/ProjectState.cpp
+CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: CMakeFiles/SummerGameDev.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jwmal\SummerGameDeving\SummerGameDeving\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj"
+	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj -MF CMakeFiles\SummerGameDev.dir\ProjectState.cpp.obj.d -o CMakeFiles\SummerGameDev.dir\ProjectState.cpp.obj -c C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.cpp
 
-CMakeFiles/SummerGameDev.dir/State.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SummerGameDev.dir/State.cpp.i"
-	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jwmal\SummerGameDeving\SummerGameDeving\State.cpp > CMakeFiles\SummerGameDev.dir\State.cpp.i
+CMakeFiles/SummerGameDev.dir/ProjectState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SummerGameDev.dir/ProjectState.cpp.i"
+	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.cpp > CMakeFiles\SummerGameDev.dir\ProjectState.cpp.i
 
-CMakeFiles/SummerGameDev.dir/State.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SummerGameDev.dir/State.cpp.s"
-	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jwmal\SummerGameDeving\SummerGameDeving\State.cpp -o CMakeFiles\SummerGameDev.dir\State.cpp.s
+CMakeFiles/SummerGameDev.dir/ProjectState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SummerGameDev.dir/ProjectState.cpp.s"
+	C:\SFML\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.cpp -o CMakeFiles\SummerGameDev.dir\ProjectState.cpp.s
 
 # Object files for target SummerGameDev
 SummerGameDev_OBJECTS = \
 "CMakeFiles/SummerGameDev.dir/main.cpp.obj" \
 "CMakeFiles/SummerGameDev.dir/Game.cpp.obj" \
-"CMakeFiles/SummerGameDev.dir/State.cpp.obj"
+"CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj"
 
 # External object files for target SummerGameDev
 SummerGameDev_EXTERNAL_OBJECTS =
 
 SummerGameDev.exe: CMakeFiles/SummerGameDev.dir/main.cpp.obj
 SummerGameDev.exe: CMakeFiles/SummerGameDev.dir/Game.cpp.obj
-SummerGameDev.exe: CMakeFiles/SummerGameDev.dir/State.cpp.obj
+SummerGameDev.exe: CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj
 SummerGameDev.exe: CMakeFiles/SummerGameDev.dir/build.make
 SummerGameDev.exe: C:/SFML/SFML/lib/libsfml-system-s-d.a
 SummerGameDev.exe: C:/SFML/SFML/lib/libsfml-window-s-d.a

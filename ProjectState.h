@@ -4,6 +4,8 @@
 #pragma once
 
 #include<vector>
+#include<fstream>
+#include<sstream>
 
 
 #include <SFMl/Graphics.hpp>

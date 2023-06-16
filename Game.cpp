@@ -12,9 +12,26 @@ Game::~Game(){
     delete this -> gameWindow;
 }
 // Window setup
-void Game::createWindow() {
-    // Load window size from another file
-    this -> gameWindow = new sf::RenderWindow (sf::VideoMode(800, 600), "Start Game");
+void Game::createWindow() {\
+    // initializing window creation variables
+    sf::VideoMode windowBounds(800, 600);
+    std::string windowTitle = "";
+    unsigned int framerateLim = 120;
+    bool vertical_sync_enable = false;
+
+    // reading in values from a window configuration text file. specific order is very important
+    std::ifstream readStream("projectConfig/windowConfig.txt");
+    if (readStream.is_open()){
+        std::getline(readStream, windowTitle);
+        readStream >> windowBounds.width >> windowBounds.height;
+        readStream >> framerateLim;
+        readStream >> vertical_sync_enable;
+    }
+
+    this -> gameWindow = new sf::RenderWindow (windowBounds, windowTitle);
+    this -> gameWindow ->setFramerateLimit(framerateLim);
+    this -> gameWindow ->setVerticalSyncEnabled(vertical_sync_enable);
+
 }
 
 // Engine Functions
@@ -40,7 +57,7 @@ void Game::renderWindow() {
 }
 
 void Game::runGame() {
-    while ( this -> gameWindow->isOpen())
+    while (this -> gameWindow -> isOpen())
     {
        this->updateGame();
        this->renderWindow();

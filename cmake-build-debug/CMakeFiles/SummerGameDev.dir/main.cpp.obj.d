@@ -127,6 +127,20 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ostream.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc \
+ C:\Users\jwmal\SummerGameDeving\SummerGameDeving\projectState.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/vector \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/fstream \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/codecvt.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/fstream.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/sstream \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/sstream.tcc \
  C:/SFML/SFML/include/SFMl/Graphics.hpp \
  C:/SFML/SFML/include/SFML/Window.hpp \
  C:/SFML/SFML/include/SFML/System.hpp \
@@ -151,7 +165,6 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/algorithmfwd.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_heap.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tempbuf.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uniform_int_dist.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/limits \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/locale \
@@ -162,7 +175,6 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/codecvt.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets_nonio.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_conv.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stringfwd.h \
@@ -199,11 +211,6 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/SFML/include/SFML/Window/Sensor.hpp \
  C:/SFML/SFML/include/SFML/Window/Touch.hpp \
  C:/SFML/SFML/include/SFML/Window/VideoMode.hpp \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/vector \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
  C:/SFML/SFML/include/SFML/Window/Window.hpp \
  C:/SFML/SFML/include/SFML/Window/WindowHandle.hpp \
  C:/SFML/SFML/include/SFML/Window/WindowStyle.hpp \
