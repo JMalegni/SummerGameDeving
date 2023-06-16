@@ -17,6 +17,10 @@ class Game {
     //making the window variable a pointer, remember to check if it is leaking memory
     sf::RenderWindow *gameWindow;
     sf::Event sfEvent;
+    // clock used to balance frames
+    sf::Clock diffClock;
+    float diffTime;
+
 
 public:
     //Constructor/destructor
@@ -31,6 +35,7 @@ public:
     void updateGame();
     void renderWindow();
     void runGame();
+    void updateDiffTime();
 
 };
 

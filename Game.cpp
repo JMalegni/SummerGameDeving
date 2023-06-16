@@ -44,5 +44,17 @@ void Game::runGame() {
     {
        this->updateGame();
        this->renderWindow();
+
+       this -> updateDiffTime();
     }
+}
+
+// used to update the time variable string time between frames / updates
+void Game::updateDiffTime() {
+
+    this -> diffTime = this -> diffClock.restart().asSeconds();
+
+    //command to clear the screen
+    system("cls");
+    std:: cout << this -> diffTime << std::endl;
 }
