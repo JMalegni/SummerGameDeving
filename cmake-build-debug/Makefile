@@ -152,6 +152,30 @@ Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+State.obj: State.cpp.obj
+.PHONY : State.obj
+
+# target to build an object file
+State.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/State.cpp.obj
+.PHONY : State.cpp.obj
+
+State.i: State.cpp.i
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/State.cpp.s
+.PHONY : State.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... State.obj
+	@echo ... State.i
+	@echo ... State.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
