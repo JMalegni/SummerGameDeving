@@ -141,6 +141,22 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/fstream.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/sstream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/sstream.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/stack \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/deque \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_deque.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/deque.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_stack.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uses_allocator.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/map \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tree.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tuple \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/invoke.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_multimap.h \
  C:/SFML/SFML/include/SFMl/Graphics.hpp \
  C:/SFML/SFML/include/SFML/Window.hpp \
  C:/SFML/SFML/include/SFML/System.hpp \
@@ -159,8 +175,6 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/SFML/include/SFML/System/String.hpp \
  C:/SFML/SFML/include/SFML/System/Utf.hpp \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/algorithm \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algo.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/algorithmfwd.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_heap.h \
@@ -181,10 +195,6 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocator.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/codecvt.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/unique_ptr.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tuple \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uses_allocator.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/invoke.h \
  C:/SFML/SFML/include/SFML/System/Utf.inl \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iterator \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stream_iterator.h \
@@ -233,11 +243,6 @@ CMakeFiles/SummerGameDev.dir/main.cpp.obj: \
  C:/SFML/SFML/include/SFML/Graphics/Glyph.hpp \
  C:/SFML/SFML/include/SFML/Graphics/Texture.hpp \
  C:/SFML/SFML/include/SFML/Graphics/Image.hpp \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/map \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tree.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_multimap.h \
  C:/SFML/SFML/include/SFML/Graphics/RectangleShape.hpp \
  C:/SFML/SFML/include/SFML/Graphics/RenderTarget.hpp \
  C:/SFML/SFML/include/SFML/Graphics/View.hpp \

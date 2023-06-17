@@ -1,37 +1,18 @@
 CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.cpp \
  C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/vector \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/functexcept.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/cpp_type_traits.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/type_traits.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/move.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/concept_check.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/type_traits \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/debug/assertions.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/debug/debug.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocator.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/new_allocator.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/new \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/exception \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception_ptr.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/cxxabi_init_exception.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
- C:/SFML/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ostream \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ios \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iosfwd \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stringfwd.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/memoryfwd.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/postypes.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cwchar \
+ C:/SFML/mingw64/x86_64-w64-mingw32/include/wchar.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -39,35 +20,40 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/typeinfo \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/hash_bytes.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/nested_exception.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/memoryfwd.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/alloc_traits.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/alloc_traits.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/initializer_list \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/functional_hash.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/range_access.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/fstream \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ios \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iosfwd \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stringfwd.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/postypes.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cwchar \
- C:/SFML/mingw64/x86_64-w64-mingw32/include/wchar.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/exception \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception_ptr.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
+ C:/SFML/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/typeinfo \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/hash_bytes.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/new \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/nested_exception.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/move.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/concept_check.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/type_traits \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/char_traits.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/functexcept.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/cpp_type_traits.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/type_traits.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/debug/assertions.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_iterator.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/debug/debug.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstdint \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stdint.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/stdint.h \
@@ -100,11 +86,18 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/string \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocator.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/new_allocator.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ostream_insert.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/cxxabi_forced.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_function.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/binders.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/range_access.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/initializer_list \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_string.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/alloc_traits.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/alloc_traits.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/string_conversions.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstdlib \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/stdlib.h \
@@ -114,6 +107,7 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/std_abs.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstdio \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cerrno \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/functional_hash.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_string.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/system_error \
@@ -130,15 +124,38 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_facets.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/basic_ios.tcc \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ostream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ostream.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/vector \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/fstream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/codecvt.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/fstream.tcc \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/sstream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/sstream.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/stack \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/deque \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_deque.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/deque.tcc \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_stack.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uses_allocator.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/map \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tree.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tuple \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/invoke.h \
+ C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_multimap.h \
  C:/SFML/SFML/include/SFMl/Graphics.hpp \
  C:/SFML/SFML/include/SFML/Window.hpp \
  C:/SFML/SFML/include/SFML/System.hpp \
@@ -157,8 +174,6 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/SFML/include/SFML/System/String.hpp \
  C:/SFML/SFML/include/SFML/System/Utf.hpp \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/algorithm \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algo.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/algorithmfwd.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_heap.h \
@@ -179,10 +194,6 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocator.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/codecvt.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/unique_ptr.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tuple \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/uses_allocator.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/invoke.h \
  C:/SFML/SFML/include/SFML/System/Utf.inl \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iterator \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stream_iterator.h \
@@ -231,11 +242,6 @@ CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:/SFML/SFML/include/SFML/Graphics/Glyph.hpp \
  C:/SFML/SFML/include/SFML/Graphics/Texture.hpp \
  C:/SFML/SFML/include/SFML/Graphics/Image.hpp \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/map \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tree.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h \
- C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_multimap.h \
  C:/SFML/SFML/include/SFML/Graphics/RectangleShape.hpp \
  C:/SFML/SFML/include/SFML/Graphics/RenderTarget.hpp \
  C:/SFML/SFML/include/SFML/Graphics/View.hpp \

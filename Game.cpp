@@ -7,12 +7,18 @@
 // Constructors/ destructor
 Game::Game() {
     this -> createWindow();
+    this -> addState();
 }
 Game::~Game(){
     delete this -> gameWindow;
+    // iterating through the state stack and deleting the dynamically allocated states
+    while(!this -> states.empty()){
+        delete this -> states.top(); // removes the data in pointer
+        this -> states.pop(); // deletes the actual pointer to the memory address
+    }
 }
 // Window setup
-void Game::createWindow() {\
+void Game::createWindow() {
     // initializing window creation variables
     sf::VideoMode windowBounds(800, 600);
     std::string windowTitle = "";
@@ -26,6 +32,9 @@ void Game::createWindow() {\
         readStream >> windowBounds.width >> windowBounds.height;
         readStream >> framerateLim;
         readStream >> vertical_sync_enable;
+    }
+    else{
+        std::cout << "config file not opened";
     }
 
     this -> gameWindow = new sf::RenderWindow (windowBounds, windowTitle);
@@ -46,11 +55,20 @@ void Game::updateSFEvents() {
 
 void Game::updateGame() {
     this -> updateSFEvents();
+
+    //this if statement updates the top state of the state stack if it is not empty.
+    // the top state of the stack is the current state that the project is in
+    if(!this -> states.empty()){
+        this -> states.top() -> updateState(this -> diffTime);
+    }
 }
 
 void Game::renderWindow() {
     this -> gameWindow -> clear();
 
+    if(!this -> states.empty()){
+        this -> states.top() -> renderState(this -> gameWindow);
+    }
 
     this -> gameWindow -> display();
 
@@ -74,4 +92,11 @@ void Game::updateDiffTime() {
     //command to clear the screen
     system("cls");
     std:: cout << this -> diffTime << std::endl;
+}
+
+void Game::addState() {
+    //dynamically creating a new state and adding it to the state stack
+    this -> states.push(new gameState(this->gameWindow));
+
+
 }
