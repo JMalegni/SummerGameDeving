@@ -47,14 +47,12 @@ gameState::~gameState() {
 void gameState::updateState(const float& diffTime) {
     this -> updateKeyBinds(diffTime);
 
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
-        std::cout << "A" << std::endl;
-    }
+    this -> player.updateCharacter(diffTime);
 
 }
 
-void gameState::renderState(sf::RenderTarget* stateTarget) {
-
+void gameState::renderState(sf::RenderTarget *stateTarget) {
+    this -> player.renderCharacter(this -> gameWindow);
 }
 
 //this function will get us out of the desired state, allowing us to escape from one state into another

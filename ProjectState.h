@@ -2,19 +2,7 @@
 // Created by jwmal on 6/15/2023.
 //
 #pragma once
-
-#include <iostream>
-#include<vector>
-#include<fstream>
-#include<sstream>
-#include<stack>
-#include<map>
-
-#include <SFMl/Graphics.hpp>
-#include <SFMl/Audio.hpp>
-#include <SFMl/System.hpp>
-#include <SFMl/Window.hpp>
-#include <SFMl/Network.hpp>
+#include "Characters.h"
 
 // object for the various states of the project: Start menu, in game etc...
 // will be inherited from for specific cases
@@ -22,11 +10,12 @@ class projectState {
     // vector of any textures that the current game state may need
     // a vector is a data container very similar to a list/array. they are more convenient to use in c++
     std::vector<sf::Texture> textures;
-    sf::RenderWindow* gameWindow;
 
 
 
 public:
+    sf::RenderWindow* gameWindow;
+
     bool isKillState;
     const bool &getKillState() const;
 
@@ -61,6 +50,7 @@ public:
 // functions or variables can be added to a child, but they will not affect the parent class
 class gameState : public projectState{
 
+    Characters player;
 
 public:
     gameState(sf::RenderWindow* gameWindow);

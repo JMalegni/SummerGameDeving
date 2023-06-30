@@ -1,6 +1,7 @@
 CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj: \
  C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.cpp \
  C:\Users\jwmal\SummerGameDeving\SummerGameDeving\ProjectState.h \
+ C:\Users\jwmal\SummerGameDeving\SummerGameDeving\Characters.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

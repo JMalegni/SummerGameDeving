@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SummerGameDev.dir/Characters.cpp.obj"
+  "CMakeFiles/SummerGameDev.dir/Characters.cpp.obj.d"
   "CMakeFiles/SummerGameDev.dir/Game.cpp.obj"
   "CMakeFiles/SummerGameDev.dir/Game.cpp.obj.d"
   "CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj"

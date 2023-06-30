@@ -128,6 +128,30 @@ SummerGameDev/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/build
 .PHONY : SummerGameDev/fast
 
+Characters.obj: Characters.cpp.obj
+.PHONY : Characters.obj
+
+# target to build an object file
+Characters.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/Characters.cpp.obj
+.PHONY : Characters.cpp.obj
+
+Characters.i: Characters.cpp.i
+.PHONY : Characters.i
+
+# target to preprocess a source file
+Characters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/Characters.cpp.i
+.PHONY : Characters.cpp.i
+
+Characters.s: Characters.cpp.s
+.PHONY : Characters.s
+
+# target to generate assembly for a file
+Characters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SummerGameDev.dir\build.make CMakeFiles/SummerGameDev.dir/Characters.cpp.s
+.PHONY : Characters.cpp.s
+
 Game.obj: Game.cpp.obj
 .PHONY : Game.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SummerGameDev
+	@echo ... Characters.obj
+	@echo ... Characters.i
+	@echo ... Characters.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s

@@ -128,6 +128,7 @@ CMakeFiles/SummerGameDev.dir/Game.cpp.obj: \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc \
  C:\Users\jwmal\SummerGameDeving\SummerGameDeving\projectState.h \
+ C:\Users\jwmal\SummerGameDeving\SummerGameDeving\Characters.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/vector \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \

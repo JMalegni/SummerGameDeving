@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Characters.cpp">
+			<Option target="SummerGameDev"/>
+		</Unit>
+		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Characters.h">
+			<Option target="SummerGameDev"/>
+		</Unit>
 		<Unit filename="C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Game.cpp">
 			<Option target="SummerGameDev"/>
 		</Unit>
