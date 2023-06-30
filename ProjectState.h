@@ -25,7 +25,12 @@ class projectState {
     sf::RenderWindow* gameWindow;
 
 
+
 public:
+    bool isKillState;
+    const bool &getKillState() const;
+
+    // public functions
     projectState(sf::RenderWindow* gameWindow);
     virtual ~projectState();
 
@@ -34,9 +39,21 @@ public:
     //this rendertarget parameter allows me to choose where the renderState function renders to if I desire
     virtual void renderState(sf::RenderTarget* stateTarget = nullptr) = 0;
 
+    virtual void checkKillState();
     virtual void killState() = 0;
 
+    virtual void updateKeyBinds(const float &dt) = 0;
+
 };
+
+
+
+
+
+
+
+
+
 
 
 // deriving a new class called gameState from ProjectState. deriving a class from a parent makes it a child class
@@ -49,10 +66,12 @@ public:
     gameState(sf::RenderWindow* gameWindow);
     virtual ~gameState();
 
-    //functions. These need to be defined for every child class of projectState because they are [ure virtual functions
+    //functions. These need to be defined for every child class of projectState because they are pure virtual=0 functions
     void updateState(const float& diffTime);
     void renderState(sf::RenderTarget* stateTarget = nullptr);
 
     void killState();
+
+    void updateKeyBinds(const float &dt); // dt means diffTime
 
 };

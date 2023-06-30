@@ -60,6 +60,19 @@ void Game::updateGame() {
     // the top state of the stack is the current state that the project is in
     if(!this -> states.empty()){
         this -> states.top() -> updateState(this -> diffTime);
+
+        // basically doing the destructor's job but allowing for future save implementation
+        if (this -> states.top() -> getKillState()){
+
+            this -> states.top()->killState();
+            delete this -> states.top();
+            this -> states.pop();
+        }
+    }
+    //kill the entire project
+    else{
+        this -> killProject();
+        this -> gameWindow->close();
     }
 }
 
@@ -68,6 +81,7 @@ void Game::renderWindow() {
 
     if(!this -> states.empty()){
         this -> states.top() -> renderState(this -> gameWindow);
+
     }
 
     this -> gameWindow -> display();
@@ -99,4 +113,8 @@ void Game::addState() {
     this -> states.push(new gameState(this->gameWindow));
 
 
+}
+
+void Game::killProject() {
+    std::cout << "Ending the project" << std::endl;
 }

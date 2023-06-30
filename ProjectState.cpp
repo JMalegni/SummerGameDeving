@@ -6,11 +6,24 @@
 
 projectState::projectState( sf::RenderWindow* gameWindow) {
     this -> gameWindow = gameWindow;
+    this -> isKillState = false;
 }
 
 projectState::~projectState() {
 
 }
+
+void projectState::checkKillState() {
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)){
+        this -> isKillState = true;
+    }
+}
+
+const bool &projectState::getKillState() const {
+    return this -> isKillState;
+}
+
+
 
 /*
  *
@@ -32,14 +45,26 @@ gameState::~gameState() {
 
 //function definitions
 void gameState::updateState(const float& diffTime) {
+    this -> updateKeyBinds(diffTime);
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
+        std::cout << "A" << std::endl;
+    }
 
 }
 
 void gameState::renderState(sf::RenderTarget* stateTarget) {
-    std::cout << "This is from the render function of the game state" << std::endl;
+
 }
 
 //this function will get us out of the desired state, allowing us to escape from one state into another
 void gameState::killState() {
+    std::cout << "ending game state" << std::endl;
+}
+
+void gameState::updateKeyBinds(const float &dt) {
+    this -> checkKillState();
+
+
 
 }

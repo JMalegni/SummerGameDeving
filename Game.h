@@ -36,8 +36,11 @@ public:
     // Useful Engine functions
     void updateSFEvents();
     void updateGame();
-    void renderWindow();
-    void runGame();
     void updateDiffTime();
+
+    void renderWindow();
+
+    void runGame();
+    void killProject();
 
 };
