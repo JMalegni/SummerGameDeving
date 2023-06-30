@@ -7,6 +7,7 @@
 // Constructors/ destructor
 Game::Game() {
     this -> createWindow();
+    this -> defaultKeys();
     this -> addState();
 }
 Game::~Game(){
@@ -103,18 +104,38 @@ void Game::updateDiffTime() {
 
     this -> diffTime = this -> diffClock.restart().asSeconds();
 
-    //command to clear the screen
+    //command to clear the console
     system("cls");
     std:: cout << this -> diffTime << std::endl;
 }
 
 void Game::addState() {
     //dynamically creating a new state and adding it to the state stack
-    this -> states.push(new gameState(this->gameWindow));
+    this -> states.push(new gameState(this->gameWindow, &this -> allowedKeys));
 
 
 }
 
 void Game::killProject() {
     std::cout << "Ending the project" << std::endl;
+}
+
+void Game::defaultKeys() {
+
+    std::ifstream keyStream("projectConfig/keybindConfig.txt");
+
+    if (keyStream.is_open()) {
+        std::string key;
+        int keyVal;
+
+        while (keyStream >> key >> keyVal){
+            this -> allowedKeys[key] = keyVal;
+        }
+    }
+
+    // TODO Remove, used to debug keybinding
+    for (auto i : this -> allowedKeys){
+        std::cout << i.first << " " << i.second << std::endl;
+    }
+
 }

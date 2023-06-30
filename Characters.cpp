@@ -19,18 +19,7 @@ void Characters::moveCharacter(const float diffTime, const float x_direct, const
 }
 
 void Characters::updateCharacter(const float &diffTime) {
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
-        this ->moveCharacter(diffTime, -.25f, 0.f);
-    }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
-        this ->moveCharacter(diffTime, .25f, 0.f);
-    }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)){
-        this ->moveCharacter(diffTime, 0.f, .25f);
-    }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)){
-        this ->moveCharacter(diffTime, 0.f, -.25f);
-    }
+
 }
 
 void Characters::renderCharacter(sf::RenderTarget *target) {

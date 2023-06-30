@@ -1,0 +1,5 @@
+Move_Left A
+Move_Right D
+Move_Up W
+Move_Down S
+Exit_State Escape

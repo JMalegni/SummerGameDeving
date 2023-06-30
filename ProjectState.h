@@ -7,20 +7,21 @@
 // object for the various states of the project: Start menu, in game etc...
 // will be inherited from for specific cases
 class projectState {
-    // vector of any textures that the current game state may need
-    // a vector is a data container very similar to a list/array. they are more convenient to use in c++
-    std::vector<sf::Texture> textures;
-
-
 
 public:
     sf::RenderWindow* gameWindow;
+
+    std::map<std::string, int> *allowedKeys;
+    std::map<std::string, int> keybinds;
+    // vector of any textures that the current game state may need
+    // a vector is a data container very similar to a list/array. they are more convenient to use in c++
+    std::vector<sf::Texture> textures;
 
     bool isKillState;
     const bool &getKillState() const;
 
     // public functions
-    projectState(sf::RenderWindow* gameWindow);
+    projectState(sf::RenderWindow* gameWindow, std::map<std::string, int> *allowedKeys);
     virtual ~projectState();
 
     //pure virtual functions, ensures that these functions must be defined in derived classes
@@ -31,7 +32,8 @@ public:
     virtual void checkKillState();
     virtual void killState() = 0;
 
-    virtual void updateKeyBinds(const float &dt) = 0;
+    virtual void updateInput(const float &dt) = 0;
+    virtual void createDefaultKeybinds() = 0;
 
 };
 
@@ -52,8 +54,11 @@ class gameState : public projectState{
 
     Characters player;
 
+    void createDefaultKeybinds();
+
+
 public:
-    gameState(sf::RenderWindow* gameWindow);
+    gameState(sf::RenderWindow *gameWindow, std::map<std::string, int> *allowedKeys);
     virtual ~gameState();
 
     //functions. These need to be defined for every child class of projectState because they are pure virtual=0 functions
@@ -62,6 +67,5 @@ public:
 
     void killState();
 
-    void updateKeyBinds(const float &dt); // dt means diffTime
-
+    void updateInput(const float &diffTime); // dt means diffTime
 };

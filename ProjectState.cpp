@@ -4,9 +4,10 @@
 
 #include "ProjectState.h"
 
-projectState::projectState( sf::RenderWindow* gameWindow) {
+projectState::projectState( sf::RenderWindow* gameWindow, std::map<std::string, int> *allowedKeys) {
     this -> gameWindow = gameWindow;
     this -> isKillState = false;
+    this -> allowedKeys = allowedKeys;
 }
 
 projectState::~projectState() {
@@ -14,7 +15,7 @@ projectState::~projectState() {
 }
 
 void projectState::checkKillState() {
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)){
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this->keybinds.at("Exit_State")))){
         this -> isKillState = true;
     }
 }
@@ -35,8 +36,8 @@ const bool &projectState::getKillState() const {
  *
  */
 // game state constructor takes in a pointer from projectState called gameWindow
-gameState::gameState(sf::RenderWindow* gameWindow) : projectState(gameWindow){
-
+gameState::gameState(sf::RenderWindow *gameWindow, std::map<std::string, int> *allowedKeys) : projectState(gameWindow, allowedKeys){
+    this -> createDefaultKeybinds();
 }
 //gameState destructor
 gameState::~gameState() {
@@ -45,14 +46,18 @@ gameState::~gameState() {
 
 //function definitions
 void gameState::updateState(const float& diffTime) {
-    this -> updateKeyBinds(diffTime);
+    this -> updateInput(diffTime);
 
     this -> player.updateCharacter(diffTime);
 
 }
 
 void gameState::renderState(sf::RenderTarget *stateTarget) {
-    this -> player.renderCharacter(this -> gameWindow);
+    if (stateTarget != nullptr){
+        stateTarget = this -> gameWindow;
+    }
+    this -> player.renderCharacter(stateTarget);
+
 }
 
 //this function will get us out of the desired state, allowing us to escape from one state into another
@@ -60,8 +65,36 @@ void gameState::killState() {
     std::cout << "ending game state" << std::endl;
 }
 
-void gameState::updateKeyBinds(const float &dt) {
-    this -> checkKillState();
+void gameState::updateInput(const float &diffTime) {
+    this->checkKillState();
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this -> keybinds.at("Move_Left")))) {
+        this->player.moveCharacter(diffTime, -.25f, 0.f);
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this -> keybinds.at("Move_Right")))) {
+        this->player.moveCharacter(diffTime, .25f, 0.f);
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this -> keybinds.at("Move_Up")))) {
+        this->player.moveCharacter(diffTime, 0.f, -.25f);
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this -> keybinds.at("Move_Down")))) {
+        this->player.moveCharacter(diffTime, 0.f, .25f);
+
+    }
+}
+
+void gameState::createDefaultKeybinds() {
+    std::ifstream keyStream("projectConfig/gameStateKeybindConfig.txt");
+
+    if (keyStream.is_open()) {
+        std::string key;
+        std::string keyNum;
+
+        while (keyStream >> key >> keyNum){
+            this -> keybinds[key] = this -> allowedKeys->at(keyNum);
+        }
+    }
+
 
 
 

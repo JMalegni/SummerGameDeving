@@ -4,7 +4,6 @@
 
 #pragma once
 
-#include <iostream>
 
 #include "projectState.h"
 
@@ -23,6 +22,7 @@ class Game {
     // for a stack, imagine a stack of cards. Each card is a piece of data. once the top is accessed and removed,
     // the card under it becomes the top card. if I were to add another card, it would become the new top.
     //"first in, last out"
+    std::map<std::string ,int> allowedKeys;
 
 public:
     //Constructor/destructor
@@ -32,6 +32,7 @@ public:
     //Setup stuff
     void createWindow();
     void addState();
+    void defaultKeys();
 
     // Useful Engine functions
     void updateSFEvents();
