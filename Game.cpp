@@ -112,6 +112,8 @@ void Game::updateDiffTime() {
 void Game::addState() {
     //dynamically creating a new state and adding it to the state stack
     this -> states.push(new gameState(this->gameWindow, &this -> allowedKeys));
+    this -> states.push(new mainMenuState(this->gameWindow, &this -> allowedKeys));
+
 
 
 }

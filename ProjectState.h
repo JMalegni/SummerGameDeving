@@ -69,3 +69,33 @@ public:
 
     void updateInput(const float &diffTime); // dt means diffTime
 };
+
+
+
+
+
+
+
+
+
+
+
+
+class mainMenuState : public projectState{
+
+    sf::RectangleShape background;
+    void createDefaultKeybinds();
+
+
+public:
+    mainMenuState(sf::RenderWindow *gameWindow, std::map<std::string, int> *allowedKeys);
+    virtual ~mainMenuState();
+
+    //functions. These need to be defined for every child class of projectState because they are pure virtual=0 functions
+    void updateState(const float& diffTime);
+    void renderState(sf::RenderTarget* stateTarget = nullptr);
+
+    void killState();
+
+    void updateInput(const float &diffTime); // dt means diffTime
+};

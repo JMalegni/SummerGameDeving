@@ -94,8 +94,61 @@ void gameState::createDefaultKeybinds() {
             this -> keybinds[key] = this -> allowedKeys->at(keyNum);
         }
     }
+}
+
+/*
+ *
+ *
+ *
+ * Main Menu state stuff
+ *
+ *
+ *
+ */
+
+mainMenuState::mainMenuState(sf::RenderWindow *gameWindow, std::map<std::string, int> *allowedKeys) : projectState(gameWindow, allowedKeys){
+    this -> createDefaultKeybinds();
+    this -> background.setSize(sf::Vector2f(gameWindow->getSize().x, gameWindow->getSize().y));
+    this -> background.setFillColor(sf::Color::Cyan);
+}
+//gameState destructor
+mainMenuState::~mainMenuState() {
+
+}
+
+//function definitions
+void mainMenuState::updateState(const float& diffTime) {
+    this -> updateInput(diffTime);
 
 
+}
 
+void mainMenuState::renderState(sf::RenderTarget *stateTarget) {
+    if (stateTarget != nullptr){
+        stateTarget = this -> gameWindow;
+    }
+    stateTarget -> draw(this->background);
 
+}
+
+//this function will get us out of the desired state, allowing us to escape from one state into another
+void mainMenuState::killState() {
+    std::cout << "ending game state" << std::endl;
+}
+
+void mainMenuState::updateInput(const float &diffTime) {
+    this->checkKillState();
+}
+
+void mainMenuState::createDefaultKeybinds() {
+    std::ifstream keyStream("projectConfig/gameStateKeybindConfig.txt");
+
+    if (keyStream.is_open()) {
+        std::string key;
+        std::string keyNum;
+
+        while (keyStream >> key >> keyNum){
+            this -> keybinds[key] = this -> allowedKeys->at(keyNum);
+        }
+    }
 }
