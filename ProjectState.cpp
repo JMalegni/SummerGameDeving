@@ -24,6 +24,14 @@ const bool &projectState::getKillState() const {
     return this -> isKillState;
 }
 
+void projectState::updateMousePositions() {
+    this -> mouseScreenPos = sf::Mouse::getPosition();
+    this -> mouseWindowPos = sf::Mouse::getPosition(*this -> gameWindow);
+    //taking one pixel on the screen and mapping the mouse position to it
+    this -> mouseViewPos = this -> gameWindow -> mapPixelToCoords(sf::Mouse::getPosition(*this -> gameWindow));
+
+}
+
 
 
 /*
@@ -110,6 +118,7 @@ mainMenuState::mainMenuState(sf::RenderWindow *gameWindow, std::map<std::string,
     this -> createDefaultKeybinds();
     this -> background.setSize(sf::Vector2f(gameWindow->getSize().x, gameWindow->getSize().y));
     this -> background.setFillColor(sf::Color::Cyan);
+    this -> createFonts();
 }
 //gameState destructor
 mainMenuState::~mainMenuState() {
@@ -119,7 +128,7 @@ mainMenuState::~mainMenuState() {
 //function definitions
 void mainMenuState::updateState(const float& diffTime) {
     this -> updateInput(diffTime);
-
+    this -> updateMousePositions();
 
 }
 
@@ -138,6 +147,10 @@ void mainMenuState::killState() {
 
 void mainMenuState::updateInput(const float &diffTime) {
     this->checkKillState();
+
+    this -> updateMousePositions();
+    system("cls");
+    std::cout << this -> mouseViewPos.x << " " << this -> mouseViewPos.y << std::endl;
 }
 
 void mainMenuState::createDefaultKeybinds() {
@@ -150,5 +163,12 @@ void mainMenuState::createDefaultKeybinds() {
         while (keyStream >> key >> keyNum){
             this -> keybinds[key] = this -> allowedKeys->at(keyNum);
         }
+    }
+}
+
+void mainMenuState::createFonts() {
+    //free to use font by user mrmanet at https://www.dafont.com/vcr-osd-mono.font
+    if (!this -> mainMenuFont.loadFromFile("projectConfig/VCR_OSD_MONO_1.001.ttf")){
+        throw("ERROR: MainMenuState: Could not load font");
     }
 }

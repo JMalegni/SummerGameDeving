@@ -105,13 +105,13 @@ void Game::updateDiffTime() {
     this -> diffTime = this -> diffClock.restart().asSeconds();
 
     //command to clear the console
-    system("cls");
+    //system("cls");
     std:: cout << this -> diffTime << std::endl;
 }
 
 void Game::addState() {
     //dynamically creating a new state and adding it to the state stack
-    this -> states.push(new gameState(this->gameWindow, &this -> allowedKeys));
+    //pthis -> states.push(new gameState(this->gameWindow, &this -> allowedKeys));
     this -> states.push(new mainMenuState(this->gameWindow, &this -> allowedKeys));
 
 

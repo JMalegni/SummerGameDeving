@@ -3,10 +3,12 @@
 //
 #pragma once
 #include "Characters.h"
+#include "Button.h"
 
 // object for the various states of the project: Start menu, in game etc...
 // will be inherited from for specific cases
 class projectState {
+
 
 public:
     sf::RenderWindow* gameWindow;
@@ -16,6 +18,10 @@ public:
     // vector of any textures that the current game state may need
     // a vector is a data container very similar to a list/array. they are more convenient to use in c++
     std::vector<sf::Texture> textures;
+    sf::Vector2i mouseScreenPos;
+    sf::Vector2i mouseWindowPos;
+    sf::Vector2f mouseViewPos;
+
 
     bool isKillState;
     const bool &getKillState() const;
@@ -33,6 +39,7 @@ public:
     virtual void killState() = 0;
 
     virtual void updateInput(const float &dt) = 0;
+    virtual void updateMousePositions();
     virtual void createDefaultKeybinds() = 0;
 
 };
@@ -85,17 +92,19 @@ class mainMenuState : public projectState{
 
     sf::RectangleShape background;
     void createDefaultKeybinds();
+    sf::Font mainMenuFont;
 
 
 public:
     mainMenuState(sf::RenderWindow *gameWindow, std::map<std::string, int> *allowedKeys);
     virtual ~mainMenuState();
 
-    //functions. These need to be defined for every child class of projectState because they are pure virtual=0 functions
     void updateState(const float& diffTime);
     void renderState(sf::RenderTarget* stateTarget = nullptr);
 
+    void createFonts();
+
     void killState();
 
-    void updateInput(const float &diffTime); // dt means diffTime
+    void updateInput(const float &diffTime);
 };

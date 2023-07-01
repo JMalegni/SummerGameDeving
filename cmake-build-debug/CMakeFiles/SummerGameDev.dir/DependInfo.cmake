@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Button.cpp" "CMakeFiles/SummerGameDev.dir/Button.cpp.obj" "gcc" "CMakeFiles/SummerGameDev.dir/Button.cpp.obj.d"
   "C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Characters.cpp" "CMakeFiles/SummerGameDev.dir/Characters.cpp.obj" "gcc" "CMakeFiles/SummerGameDev.dir/Characters.cpp.obj.d"
   "C:/Users/jwmal/SummerGameDeving/SummerGameDeving/Game.cpp" "CMakeFiles/SummerGameDev.dir/Game.cpp.obj" "gcc" "CMakeFiles/SummerGameDev.dir/Game.cpp.obj.d"
   "C:/Users/jwmal/SummerGameDeving/SummerGameDeving/ProjectState.cpp" "CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj" "gcc" "CMakeFiles/SummerGameDev.dir/ProjectState.cpp.obj.d"
